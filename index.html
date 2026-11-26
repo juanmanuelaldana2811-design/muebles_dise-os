@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muebles y Diseños — Muebles a medida</title>
+  <meta name="description" content="Muebles y Diseños: muebles a medida para tu hogar y oficina. Diseño, fabricación e instalación en Colombia." />
+  <meta name="theme-color" content="#c9432f" />
+
+  <meta property="og:title" content="Muebles y Diseños — Muebles a medida" />
+  <meta property="og:description" content="Diseñamos y fabricamos muebles a medida para tu hogar y oficina." />
+  <meta property="og:image" content="assets/hero.jpg" />
+  <meta property="og:type" content="website" />
+
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#inicio">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Muebles y Diseños, inicio">
+        <span class="brand-mark" aria-hidden="true">MY<span>D</span></span>
+        <span class="brand-copy">
+          <strong>Muebles y</strong>
+          <em>Diseños</em>
+        </span>
+      </a>
+
+      <nav class="main-nav" aria-label="Navegación principal">
+        <a href="#catalogo">Catálogo</a>
+        <a href="#a-medida">A medida</a>
+        <a href="#proceso">Proceso</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <a class="selection-button" href="#contacto">
+        <span class="selection-icon" aria-hidden="true">✦</span>
+        Escríbenos
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-section" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span>Muebles hechos a tu medida</p>
+          <h1>Espacios que <em>se sienten</em> como tuyos</h1>
+          <p class="hero-text">
+            Diseñamos y fabricamos muebles a medida para tu hogar y tu oficina.
+            Piezas pensadas para tu espacio, tu rutina y tu estilo.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#catalogo">Ver catálogo <span>→</span></a>
+            <a class="text-link" href="#a-medida">Conoce el proceso <span>↗</span></a>
+          </div>
+          <p class="hero-note"><span class="note-dot"></span> Fabricación local · Entrega e instalación incluidas</p>
+        </div>
+
+        <div class="hero-art" aria-hidden="true">
+          <div class="sun-shape"></div>
+          <div class="hero-image-blank">
+            <img src="assets/hero.jpg" alt="Mueble a medida Muebles y Diseños" loading="eager" onerror="this.style.display='none'" />
+            <span>Imagen principal</span>
+          </div>
+          <div class="hero-tag">
+            <span>Hecho</span><strong>100%</strong><span>a medida</span>
+          </div>
+          <div class="hero-caption">Diseño <em>&amp; madera</em></div>
+        </div>
+      </div>
+
+      <div class="hero-ribbon" aria-hidden="true">
+        <span>Diseño</span><span>Fabricación</span><span>Instalación</span><span>A medida</span><span>Hogar</span>
+      </div>
+    </section>
+
+    <section class="intro-section container">
+      <div class="eyebrow"><span></span>Quiénes somos</div>
+      <div class="intro-content">
+        <h2>Muebles que <em>cuentan</em> tu historia</h2>
+        <p>
+          En Muebles y Diseños creemos que cada espacio puede ser único. Trabajamos
+          contigo para crear piezas que combinen funcionalidad, materiales honestos
+          y un diseño que dure.
+        </p>
+      </div>
+      <div class="intro-stamp">
+        <span class="stamp-star">✶</span>
+        <span>Hecho en<br />Colombia</span>
+      </div>
+    </section>
+
+    <section class="catalog-section" id="catalogo">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker"><span></span>Catálogo</p>
+            <h2>Piezas <em>destacadas</em></h2>
+          </div>
+          <p>Explora algunos de nuestros muebles. Cada pieza se puede adaptar a tu espacio y tus medidas.</p>
+        </div>
+
+        <div class="filter-row" role="tablist" aria-label="Filtrar productos">
+          <button class="filter-button is-active" data-filter="todos">Todos</button>
+          <button class="filter-button" data-filter="oficina">Oficina</button>
+          <button class="filter-button" data-filter="hogar">Hogar</button>
+          <button class="filter-button" data-filter="organizacion">Organización</button>
+        </div>
+
+        <div class="product-grid" id="product-grid"></div>
+      </div>
+    </section>
+
+    <section class="custom-section" id="a-medida">
+      <div class="container custom-grid">
+        <div class="custom-visual">
+          <div class="custom-frame">
+            <div class="image-blank">
+              <img src="assets/a-medida.jpg" alt="Mueble a medida en proceso" loading="lazy" onerror="this.style.display='none'" />
+              <span>Imagen a medida</span>
+            </div>
+          </div>
+          <div class="custom-label">Diseño <strong>a medida</strong></div>
+        </div>
+
+        <div class="custom-copy">
+          <p class="section-kicker light"><span></span>Muebles a medida</p>
+          <h2>Tu espacio, <em>tu diseño</em></h2>
+          <p>
+            Cada rincón tiene su propia historia. Por eso diseñamos muebles que
+            encajan perfecto: medidas exactas, materiales de calidad y un acabado
+            que se siente pensado para ti.
+          </p>
+          <ul class="custom-list">
+            <li><span>01</span> Medidas y materiales a tu elección</li>
+            <li><span>02</span> Asesoría de diseño personalizada</li>
+            <li><span>03</span> Fabricación e instalación incluidas</li>
+          </ul>
+          <a class="button button-light" href="#contacto">Cuéntanos tu idea <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="process-section" id="proceso">
+      <div class="container">
+        <div class="process-heading">
+          <div>
+            <p class="section-kicker"><span></span>Cómo trabajamos</p>
+            <h2>Simple, claro <em>y a tu ritmo</em></h2>
+          </div>
+          <p>Un proceso de tres pasos para que tu mueble quede exactamente como lo imaginas.</p>
+        </div>
+
+        <div class="process-grid">
+          <article class="process-card">
+            <span class="process-number">01</span>
+            <div class="process-icon" aria-hidden="true">✎</div>
+            <h3>Conversamos</h3>
+            <p>Nos cuentas tu idea, medidas y estilo. Te asesoramos con opciones reales.</p>
+          </article>
+          <article class="process-card featured">
+            <span class="process-number">02</span>
+            <div class="process-icon" aria-hidden="true">◈</div>
+            <h3>Diseñamos</h3>
+            <p>Preparamos la propuesta y ajustamos cada detalle hasta que sea perfecta.</p>
+          </article>
+          <article class="process-card">
+            <span class="process-number">03</span>
+            <div class="process-icon" aria-hidden="true">✦</div>
+            <h3>Fabricamos e instalamos</h3>
+            <p>Construimos tu mueble y lo instalamos en tu espacio, listo para usar.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contacto">
+      <div class="contact-scribble" aria-hidden="true">Hola</div>
+      <div class="container contact-inner">
+        <h2>¿Empezamos <em>tu proyecto</em>?</h2>
+        <div class="contact-action">
+          <p>Escríbenos por WhatsApp y te ayudamos a cotizar el mueble que necesitas.</p>
+          <a class="button button-light" id="whatsapp-contact" href="#" target="_blank" rel="noreferrer">
+            Escribir por WhatsApp <span>↗</span>
+          </a>
+          <small id="telefono-visible">312 596 1153</small>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand" href="#inicio" aria-label="Muebles y Diseños, inicio">
+        <span class="brand-mark" aria-hidden="true">MY<span>D</span></span>
+        <span class="brand-copy">
+          <strong>Muebles y</strong>
+          <em>Diseños</em>
+        </span>
+      </a>
+      <span>© <span id="year"></span> Muebles y Diseños</span>
+      <p>Hecho con cariño para tu espacio.</p>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
